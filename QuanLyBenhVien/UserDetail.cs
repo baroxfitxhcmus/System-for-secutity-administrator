@@ -25,22 +25,30 @@ namespace QuanLyBenhVien
         }
         private void button6_Click(object sender, EventArgs e)
         {
+            viewStatus = true;
             this.Close();
         }
 
         private void UserDetail_Load(object sender, EventArgs e)
         {
-            lbNameOfUser.Text = "Tên người dùng: " + " " + userName;
-            using (OracleConnection conn = new OracleConnection(connectionStringUser))
+            try
             {
-                OracleCommand cmd = new OracleCommand("SELECT * FROM DBA_SYS_PRIVS WHERE GRANTEE = '" + userName + "'", conn);
-                OracleDataAdapter oda = new OracleDataAdapter(cmd);
-                DataSet ds = new DataSet();
-                oda.Fill(ds);
-                if (ds.Tables.Count > 0)
+                lbNameOfUser.Text = "Tên người dùng: " + " " + userName;
+                using (OracleConnection conn = new OracleConnection(connectionStringUser))
                 {
-                    dtListPriv.DataSource = ds.Tables[0].DefaultView;
+                    OracleCommand cmd = new OracleCommand("SELECT * FROM DBA_SYS_PRIVS WHERE GRANTEE = '" + userName + "'", conn);
+                    OracleDataAdapter oda = new OracleDataAdapter(cmd);
+                    DataSet ds = new DataSet();
+                    oda.Fill(ds);
+                    if (ds.Tables.Count > 0)
+                    {
+                        dtListPriv.DataSource = ds.Tables[0].DefaultView;
+                    }
                 }
+            }
+            catch
+            {
+                MessageBox.Show("khong load duoc du lieu");
             }
         }
         public void GridView_reFresh()

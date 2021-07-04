@@ -29,6 +29,7 @@ namespace QuanLyBenhVien
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            statusView = true;
             this.Close();
         }
 
@@ -89,7 +90,7 @@ namespace QuanLyBenhVien
                 tbSearchPrivs.Text = row.Cells[1].Value.ToString();
                 if (statusView == false)
                 {
-                    tbSearchPrivs.Text += " ON " + row.Cells[2].Value.ToString();
+                    tbSearchPrivs.Text += " ON " + row.Cells["TABLE_NAME"].Value.ToString();
                 }
             }
         }
@@ -131,6 +132,7 @@ namespace QuanLyBenhVien
                 MessageBox.Show("Xóa quyền không thành công");
             }
         }
+
         public static AddPrivilege aPrivRole = null;
         private void btnAddPriv_Click(object sender, EventArgs e)
         {

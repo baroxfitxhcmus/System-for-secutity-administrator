@@ -19,3 +19,5 @@ D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in In
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.UserDetail.resources
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.UserModify.resources
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.AddRole.resources
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.OthersObject.resources
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.RoleCreate.resources

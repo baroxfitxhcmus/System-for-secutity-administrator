@@ -36,16 +36,23 @@ namespace QuanLyBenhVien
 
         private void ListRole_Load(object sender, EventArgs e)
         {
-            using (OracleConnection conn = new OracleConnection(Dashboard.connectionString))
+            try
             {
-                OracleCommand cmd = new OracleCommand("SELECT * FROM dba_roles", conn);
-                OracleDataAdapter oda = new OracleDataAdapter(cmd);
-                DataSet ds = new DataSet();
-                oda.Fill(ds);
-                if (ds.Tables.Count > 0)
+                using (OracleConnection conn = new OracleConnection(Dashboard.connectionString))
                 {
-                    dtListRole.DataSource = ds.Tables[0].DefaultView;
+                    OracleCommand cmd = new OracleCommand("SELECT * FROM dba_roles", conn);
+                    OracleDataAdapter oda = new OracleDataAdapter(cmd);
+                    DataSet ds = new DataSet();
+                    oda.Fill(ds);
+                    if (ds.Tables.Count > 0)
+                    {
+                        dtListRole.DataSource = ds.Tables[0].DefaultView;
+                    }
                 }
+            }
+            catch
+            {
+                MessageBox.Show("Khong load duoc du lieu");
             }
         }
         // View detail about privs of role

@@ -89,8 +89,8 @@ namespace QuanLyBenhVien
                     label1.Visible = false;
                     label3.Visible = false;
                     rbtnView.Visible = false;
-                    rbtnView.Visible = false;
-
+                    rtbnTable.Visible = false;
+                    
                 }
                 else
                 {
@@ -193,14 +193,14 @@ namespace QuanLyBenhVien
             if(e.RowIndex >= 0)
             {
                 DataGridViewRow row = dtAddPriv.Rows[e.RowIndex];
-                if(UserDetail.viewStatus == true)
+                if(UserDetail.viewStatus == true && RoleDetail.statusView == true)
                 {
-                    tbSearchPriv.Text = row.Cells[0].Value.ToString();
+                    tbSearchPriv.Text = row.Cells["PRIVILEGE"].Value.ToString();
                 }
                 else
-                {
-                    tbSearchPriv.Text = row.Cells[1].Value.ToString() + " ON " + tableAddPriv;
-                    tableAddPriv = row.Cells[2].Value.ToString();
+                {               
+                    tableAddPriv = row.Cells["TABLE_NAME"].Value.ToString();
+                    tbSearchPriv.Text = row.Cells["PRIVILEGE"].Value.ToString() + " ON " + tableAddPriv;
                 }
                 
             }
@@ -300,7 +300,7 @@ namespace QuanLyBenhVien
                 
                 try
                 {
-                    if (cbbCot.Enabled == true)
+                    if (cbbCot.Enabled == true && cbbCot.Text != "")
                     {
                         using (OracleConnection conn = new OracleConnection(Dashboard.connectionString))
                         {
@@ -446,7 +446,7 @@ namespace QuanLyBenhVien
             }
             catch
             {
-
+                MessageBox.Show("Lỗi khi chọn bảng/view!");
             }
         }
     }

@@ -76,9 +76,10 @@ namespace QuanLyBenhVien
 
         private void btnQL_User_Click(object sender, EventArgs e)
         {
+            
             resetColorMenuButton();
             btnQL_User.BackColor = Color.FromArgb(173, 217, 201);
-            ListUser listUser = new ListUser();
+            ListUser listUser = new ListUser();            
             listUser.SenderListUser(connectionString);
             openChildForm(listUser);
         }

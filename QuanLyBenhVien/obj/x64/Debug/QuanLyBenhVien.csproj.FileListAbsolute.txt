@@ -1,7 +1,6 @@
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\bin\x64\Debug\QuanLyBenhVien.exe.config
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\bin\x64\Debug\QuanLyBenhVien.exe
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\bin\x64\Debug\QuanLyBenhVien.pdb
-D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\bin\x64\Debug\Oracle.DataAccess.dll
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.Properties.Resources.resources
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.csproj.GenerateResource.cache
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.csproj.CoreCompileInputs.cache
@@ -21,3 +20,4 @@ D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in In
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.AddRole.resources
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.RoleCreate.resources
 D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\obj\x64\Debug\QuanLyBenhVien.OthersObject.resources
+D:\OneDrive - VNU-HCMUS\Nam ba\Hoc ky 2\Safety and Confidentiality of data in Information Systems\Practice\ATBM_nhom13\QuanLyBenhVien\QuanLyBenhVien\bin\x64\Debug\Oracle.DataAccess.dll
